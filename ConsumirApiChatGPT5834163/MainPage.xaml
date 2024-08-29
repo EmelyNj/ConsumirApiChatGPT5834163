@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsumirApiChatGPT5834163.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Entry x:Name="userMessageEntry" Placeholder="Escribe tu mensaje aquí" />
+
+            <Button x:Name="OnSendMessage"  Text="Enviar" Clicked="OnSendMessage_Clicked"/>
+
+            <Label x:Name="responseLabel" Text="Respuesta aparecerá aquí" LineBreakMode="WordWrap"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

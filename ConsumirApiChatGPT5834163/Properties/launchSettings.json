@@ -1,0 +1,12 @@
+{
+  "OpenAI": {
+    "ApiKey": "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"
+
+  },
+  "profiles": {
+    "Windows Machine": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
